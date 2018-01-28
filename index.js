@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
-const config = require("./config.json");
-//const TOKEN = "NDAxMjUwMzgzNzc2NzEwNjU2.DTsqFw._BsquGbDWFXSltOiKLlHPQ4LZx4";
+//const config = require("./config.json");
 const PREFIX = ","
 
 
@@ -337,5 +336,5 @@ default:
     //console.log(message.content);
 });
 
-bot.login(config.token);
+bot.login(process.env.BOT_TOKEN);
 
