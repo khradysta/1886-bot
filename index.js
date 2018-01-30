@@ -16,7 +16,7 @@ var fortunes = [
 
 bot.on("ready", function(){
     console.log("Ready");
-    bot.user.setGame("b-1886 | ,classpool");
+    bot.user.setGame("b-1886 | ,help");
     })
 
 bot.on("message", (message) => {
@@ -82,7 +82,7 @@ case "help":
             .addField
             ("__**Prefix:**__", ",")
             .addField
-            ("__Non OP Classes__", "`low, mid, high, classpools`")
+            ("__Non OP Classes__", "`low, mid, high, classpool`")
             .addField
             ("__Non OP Rules__", "`general, gwar`")
             .addField
