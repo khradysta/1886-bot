@@ -8,7 +8,5 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.2.1",
-    "opusscript": "0.0.6",
-    "ytdl-core": "^0.18.7"
   }
 }
