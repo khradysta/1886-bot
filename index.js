@@ -31,19 +31,16 @@ bot.on("message", function(message){
         message.channel.sendMessage("Shut up");
     }
     if (message.content == "."){
-        message.channel.sendMessage("don't do that :(");
+        message.channel.sendMessage("stop");
     }
     if (message.content == "ok"){
-        message.channel.sendMessage("Good ;)");
+        message.channel.sendMessage("hehexd");
     }
     if (message.content == "hello"){
         message.channel.sendMessage("Shut up");
     }
     if (message.content == "hi"){
         message.channel.sendMessage("hi dweeb");
-    }
-    if (message.content == "Hi"){
-        message.channel.sendMessage("Hey there, can I tell you something? You used an uppercase 'h' you're a legend.");
     }
     if (message.content == "do you know de wey"){
         message.channel.sendMessage("i do not kno de wey brada");
@@ -54,9 +51,7 @@ bot.on("message", function(message){
     if (message.content == "HI"){
         message.channel.sendMessage("WHAT DO YOU WANT");
     }
-    if (message.content == "war???"){
-        message.channel.sendMessage("do it or we finna unlist your entire guild aHAhAHaHaHAhHA");
-    }
+    
 
 //COMMANDS with prefix
 if (!message.content.startsWith(PREFIX))return; 
