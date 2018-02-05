@@ -30,12 +30,12 @@ bot.on("message", function(message){
     if (message.content == "Hello"){
         message.channel.sendMessage("Shut up");
     }
-    if (message.content == "."){
-        message.channel.sendMessage("stop");
-    }
-    if (message.content == "ok"){
-        message.channel.sendMessage("hehexd");
-    }
+    //if (message.content == "."){
+    //    message.channel.sendMessage("stop");
+    //}
+    // if (message.content == "ok"){
+    //  message.channel.sendMessage("hehexd");
+    //}
     if (message.content == "hello"){
         message.channel.sendMessage("Shut up");
     }
