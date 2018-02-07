@@ -254,7 +254,7 @@ case "banned":
                 .addField
                 (":white_small_square: Blaze Binder“, “Bruh “)
                 .addField
-                (":white_small_square: Dragonslayer General”, “Don’t confused this shit with the OG Dragonslayer.*”,true)
+                (":white_small_square: Dragonslayer General”, “Don’t confuse this shit with the OG Dragonslayer.”,true)
                 .addField
                 (":white_small_square: Paladin/Doom Knight”, “USE THE CLASSIC VERSIONS OF THESE CLASSES!!!“,true)
                 .addField
