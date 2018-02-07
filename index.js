@@ -243,7 +243,32 @@ case "classpool":
         ("RANDOM");
     message.channel.sendEmbed(embed);
     break;
-    
+
+case "banned": 
+                var embed = new Discord.RichEmbed()
+                .setAuthor("b-1886", "https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
+                .setTitle(":crossed_swords: BANNED CLASSES :crossed_swords: ")
+                .setThumbnail("https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
+                .addField
+                (":white_small_square: VHL”, “Does this really have to be explained.“)
+                .addField
+                (":white_small_square: Blaze Binder“, “Bruh “)
+                .addField
+                (":white_small_square: Dragonslayer General”, “Don’t confused this shit with the OG Dragonslayer.*”,true)
+                .addField
+                (":white_small_square: Paladin/Doom Knight”, “USE THE CLASSIC VERSIONS OF THESE CLASSES!!!“,true)
+                .addField
+                (":white_small_square: SSOT aka Shadow Stalker of Time", "Just don't.",true)
+                .addField
+                (":white_small_square: Great Thief", "DOES THIS REALLY NEED TO BE EXPLAINED???",true)
+                .addField
+                (":white_small_square: Pyromancer", "Idk why you're still looking at this list. Anything that's not listed in ,classpool is banned.",true)
+                .setFooter
+                ("1886 Community | Accurate as of the 14th of January, 2018", "https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
+                .setColor
+                ("RANDOM");
+            message.channel.sendEmbed(embed);
+        break;
 
 case "general": 
     var embed = new Discord.RichEmbed()
