@@ -263,6 +263,12 @@ case "banned":
                 (":white_small_square: Great Thief", "DOES THIS REALLY NEED TO BE EXPLAINED???",true)
                 .addField
                 (":white_small_square: Pyromancer", "Idk why you're still looking at this list. Anything that's not listed in ,classpool is banned.",true)
+                 .addField
+                (":white_small_square: LightCaster", "No moarrrr",true)
+                 .addField
+                (":white_small_square: LDK", "PLS STAPH",true)
+                 .addField
+                (":white_small_square: Elemental Dracomancer and varients", "STAPH IT NOW",true)
                 .setFooter
                 ("1886 Community | Accurate as of the 14th of January, 2018", "https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
                 .setColor
