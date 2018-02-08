@@ -145,7 +145,7 @@ case "mid":
             ("RANDOM");
         message.channel.sendEmbed(embed);
     break;
-case "ban":
+case "banned":
         var embed = new Discord.RichEmbed()
         .setTitle(":crossed_swords: Banned Classes :crossed_swords:")
         .setThumbnail("https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
