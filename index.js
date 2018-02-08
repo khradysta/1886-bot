@@ -79,7 +79,7 @@ case "help":
             .addField
             ("__Non OP Classes__", "`low, mid, high, classpool`")
             .addField
-            ("__Non OP Rules__", "`general, gwar, banned`")
+            ("__Non OP Rules__", "`general, gwar, ban` ban = banned classes")
             .addField
             ("__Random shit__", "`8ball`",)
             .addField
@@ -145,7 +145,7 @@ case "mid":
             ("RANDOM");
         message.channel.sendEmbed(embed);
     break;
-case "banned":
+case "ban":
         var embed = new Discord.RichEmbed()
         .setTitle(":crossed_swords: Banned Classes :crossed_swords:")
         .setThumbnail("https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
