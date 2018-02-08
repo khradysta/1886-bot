@@ -147,8 +147,27 @@ case "mid":
     break;
 case "banned":
                var embed = new Discord.RichEmbed()
-               .setTitle(":crossed_swords:
-    break;
+               .setTitle(":crossed_swords: Banned Classes :crossed_swords:")
+               .setTitle(":crossed_swords: High Tier Classes :crossed_swords: ")
+               .setThumbnail("https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
+               .addField
+               (":white_small_square: Void HighLord", "Why are you looking for a reason why it's non-op ;-;", true)
+               .addField
+               (":white_small_square: Great Thief", "Bruh this is fucking stupid why are you bothering", true)
+               .addField
+               (":white_small_square: LightCaster", "Really?", true)
+               .addField
+               (":white_small_square: LDK", "Why", true)
+               .addField
+               (":white_small_square: StoneCrusher", "Man idk why you bother :(", true)
+               .addField
+               (":white_small_square: I WOULD PUT ALL THE OP CLASSES HERE BUT THAT'D BE SO MUCH AND I'M LAZY ATM SO ANYTHING NOT ON ,classpool IS OP OKAY???")
+               .setFooter
+                ("1886 Community | Accurate as of the 14th of January, 2018", "https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
+                .setColor
+            ("RANDOM");
+                
+   break;
 case "high":
                 var embed = new Discord.RichEmbed()
                 .setAuthor("b-1886", "https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
