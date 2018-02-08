@@ -148,7 +148,6 @@ case "mid":
 case "banned":
                var embed = new Discord.RichEmbed()
                .setTitle(":crossed_swords: Banned Classes :crossed_swords:")
-               .setTitle(":crossed_swords: High Tier Classes :crossed_swords: ")
                .setThumbnail("https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
                .addField
                (":white_small_square: Void HighLord", "Why are you looking for a reason why it's non-op ;-;", true)
