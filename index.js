@@ -82,9 +82,9 @@ case "help":
             //("__Non OP Classes__", "`low, mid, high, classpool`")
             //.addField
             //("__Non OP Rules__", "`general, gwar, ban` ban = banned classes")
-            //.addField
-            //("__Random shit__", "`8ball`",)
-            //.addField
+            .addField
+            ("__Random shit__", "`8ball`",)
+            .addField
             ("__Info__", "`ping, invite`",true)
             .setFooter
             ("QUERA IS MY MAKER AHAHAHAHAHAHAHAHAH", "https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
