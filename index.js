@@ -30,12 +30,12 @@ bot.on("message", function(message){
     if (message.content == "Hello"){
         message.channel.sendMessage("Shut up");
     }
-    //if (message.content == "."){
-    //    message.channel.sendMessage("stop");
-    //}
-    // if (message.content == "ok"){
-    //  message.channel.sendMessage("hehexd");
-    //}
+    if (message.content == "."){
+        message.channel.sendMessage("stop");
+    
+    if (message.content == "ok"){
+        message.channel.sendMessage("hehexd");
+    
     if (message.content == "hello"){
         message.channel.sendMessage("Shut up");
     }
@@ -50,6 +50,15 @@ bot.on("message", function(message){
     }
     if (message.content == "HI"){
         message.channel.sendMessage("WHAT DO YOU WANT");
+    }
+    if (message.content == "vbucks pls"){
+        message.channel.sendMessage("wins pls");
+    }
+    if (message.content == "wanna play"){
+        message.channel.sendMessage("CMERE BOI");
+    }
+    if (message.content == "join"){
+        message.channel.sendMessage("no ty");
     }
     
 
@@ -96,14 +105,12 @@ case "help":
 
 case "invite":
     var embed = new Discord.RichEmbed()
-        .setAuthor("b-1886", "https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
+        .setAuthor("teehee xd", /*image here*/)
         .setThumbnail("https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
         .addField
         ("Invite me!", "Click [this link](https://discordapp.com/api/oauth2/authorize?client_id=401250383776710656&permissions=116737&scope=bot)  to add me to your Guilds' Server!")
         .addField
-        ("Join b-1886!", "Click [this link](https://discord.gg/SG4bCd7) to join the B-1886 Community Server!")
-        .setFooter
-        ("1886 Community", "https://media.discordapp.net/attachments/401935441823006731/401945316066066433/nobackgroundnoglow.png?width=1277&height=1282")
+        ("Join T7!", "Click [this link](https://discord.gg/SG4bCd7) to join the T7 Community Server!")
         .setColor
         ("RANDOM");
         
