@@ -111,6 +111,9 @@ case "invite":
         ("Invite me!", "Click [this link](https://discordapp.com/api/oauth2/authorize?client_id=401250383776710656&permissions=116737&scope=bot)  to add me to your Guilds' Server!")
         .addField
         ("Join T7!", "Click [this link](https://discord.gg/SG4bCd7) to join the T7 Community Server!")
+     .setFooter
+            ("xd hi")
+            
         .setColor
         ("RANDOM");
         
