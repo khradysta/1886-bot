@@ -125,7 +125,7 @@ default:
         break;
     }
     //console.log(message.content);
-});
+};
 
 bot.login(process.env.BOT_TOKEN);
 
